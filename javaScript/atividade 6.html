@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title>Atividade 6</title>
+</head>
+<body>
+ Palidromo: <input id="texto" type="text" onblur="palidromo(this.value)"> 
+</body>
+</html>
+
+
+<script>
+  var word = []
+  function palidromo(palavra){
+   let name = palavra.split('').reverse().join('')
+   if((palavra == name) && palavra !== '')
+     alert(`${palavra}, é um palidromo.`)
+   else
+      alert(`${palavra}, não é um palidromo.`)
+  }
+</script>

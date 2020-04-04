@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>Atividade 4</title>
+</head>
+<body>
+  <input id="A" type="button" value="Ocultar/Mostrar">
+  <p id="texto">Caros amigos, a constante divulgação das informações obstaculiza a apreciação da importância das novas proposições. autor: gerador de lero lero</p>
+</body>
+</html>
+
+<script>
+  var asdf = document.getElementById('A');
+  var p = document.querySelector('#texto');
+  asdf.addEventListener('click', () =>{
+    if (p.style.display == 'none'){
+      p.style.display = 'block';
+    }
+    else {
+      p.style.display = 'none';
+    }
+  })
+</script>
